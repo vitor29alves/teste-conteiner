@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(160, 52, 52);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+.input {
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    text-align: center;
+}
+
+.button-listar {
+    text-align: right;
+    margin-right: 23px;
+    margin-top: 5px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    background-color: rgb(20, 39, 56);
+}
+
+.card {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px gray;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-content-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button-delete {
+    background-color: rgb(158, 49, 49);
+    color: white;
+}
+
+.button-delete:hover {
+    background-color: rgb(207, 96, 96);
+    cursor: pointer;
+}
+
+.button-edit {
+    background-color: rgb(34, 106, 165);
+    color: white;
+
+}
+
+.button-edit:hover {
+    background-color: rgb(81, 155, 216);
+    cursor: pointer;
+}
